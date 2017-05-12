@@ -33,7 +33,7 @@ body {
 }
 /*------------------------*/
 
-/*Top right img and handles*/
+/*Top left img and twitter handles*/
 .top-row {
   width: 100%;
   height: 100px;
@@ -58,6 +58,9 @@ body {
   color: rgb(85, 172, 238);
   border: 3px solid rgb(85, 172, 238);
   border-radius: 11px;
+}
+.follow:hover {
+  cursor: pointer;
 }
 .follow img {
   height: 46%;
@@ -86,17 +89,14 @@ body {
   margin-top: 28px;
   display: flex;
 }
-.icons1 {
+.icons-reply, .icons-retweet, .icons-favorite {
   width: 70px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-
 }
-.icons2, .icons3 {
+.icons-retweet, .icons-favorite {
   width: 170px;
   vertical-align: middle;
-  display: flex;
   justify-content:center;
-  align-items: center;
 }
