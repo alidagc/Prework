@@ -1,0 +1,102 @@
+body {
+  font-size: 32px;
+  font-family: Helvetica;
+}
+
+.background {
+  background-color: rgb(244, 248, 249);
+  padding: 18px;
+  width: 1000px;
+}
+
+.tweet-background {
+  width: 91%;
+  height: 240px;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(225, 232, 237);
+  border-radius: 12px;
+  padding: 40px;
+}
+
+/*-- Reusable styling ----*/
+.font-bold {
+  font-weight: bold;
+}
+.float-left {
+  float: left;
+}
+.grey-text {
+  color: rgb(104, 109, 129);
+}
+.margin-right-10 {
+  margin-right: 10px;
+}
+/*------------------------*/
+
+/*Top right img and handles*/
+.top-row {
+  width: 100%;
+  height: 100px;
+}
+.profile-picture {
+  margin-right: 25px;
+}
+.top-left-text h2 {
+  font-size: .85em;
+}
+/*.inline-block {
+  display: inline-block;
+}*/
+
+/*Follow button*/
+.follow {
+  width: 200px;
+  height: 67px;
+  float: right;
+  position:relative;
+  background-color: rgb(255, 255, 255);
+  color: rgb(85, 172, 238);
+  border: 3px solid rgb(85, 172, 238);
+  border-radius: 11px;
+}
+.follow img {
+  height: 46%;
+  position: absolute;
+  top: 25%;
+  left: 13%;
+}
+.follow h1 {
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  font-size: 32px;
+  width: 100px;
+}
+
+/*Tweet text and time stamp*/
+.middle-text p {
+  margin-bottom: 10px;
+}
+.time-date {
+  font-size: .9em;
+}
+
+/*Icons on the bottom*/
+.bottom-icons {
+  margin-top: 28px;
+  display: flex;
+}
+.icons1 {
+  width: 70px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+.icons2, .icons3 {
+  width: 170px;
+  vertical-align: middle;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
